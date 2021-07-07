@@ -37,4 +37,19 @@ section 3. Introduction to Back-End Web Development
                 HTTP response headers (many diffrent possibilities)
 
                 Response Body (most responses)
+
+        26. HTTP in Action
+
+                open udemy, open network tab in dev tools, select disable cache, refresh udemy page, under name select udemy.com:
+                    now we can see the request and response information for the page
+
+                    can also see cookies tab as well as response tab
+
+        27. Front-End vs. Back-end Web Development
+
+        28. Static vs dynamic API's
+
+section 4: How Node.js Works: A Look Behind the Scenes
+
+        
  
