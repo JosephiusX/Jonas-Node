@@ -83,8 +83,14 @@ section 4: How Node.js Works: A Look Behind the Scenes
                 Dont use too complex regular expressions(e.g nested quantifiers)
 
         33. The Event Loop in Practice
+             
+             event-loop.js
 
+        34. Events and Event-Driven Architecture
+
+        35. Events in Practice
             
+
 
 
 
