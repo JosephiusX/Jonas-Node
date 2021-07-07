@@ -51,5 +51,41 @@ section 3. Introduction to Back-End Web Development
 
 section 4: How Node.js Works: A Look Behind the Scenes
 
-        
+        30. Node, V8, Libuv and C++
+
+            node is made up of V8 & libuv
+                v8 is written with js & C++
+                libuv is written with just C++
+
+            node also relies on http-parser, c-ares, openSsl, zlib
+
+        31. Processes, Threads and the Thread Pool
+
+            Single Thread (Sequence of instructions)
+
+            Initalize Program >
+             Execute "top-level" code >
+              Require modules >
+               Register event callbacks > START EVENT LOOP
+
+               the event loop can ofload to thread pool
+
+        32. The Node.js Event Loop
+
+            guidlines for not blocking the event loop
+
+                dont use sync versions of functions in fs, crypto and zlib modules in your callback functions
+
+                Dont perform complex calculations(e.g loops inside loops)
+
+                Be careful with JSON in large objects
+
+                Dont use too complex regular expressions(e.g nested quantifiers)
+
+        33. The Event Loop in Practice
+
+            
+
+
+
  
