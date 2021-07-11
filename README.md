@@ -89,7 +89,8 @@ section 4: How Node.js Works: A Look Behind the Scenes
         34. Events and Event-Driven Architecture
 
         35. Events in Practice
-            
+
+            create new file events.js
 
 
 
