@@ -100,6 +100,9 @@ section 4: How Node.js Works: A Look Behind the Scenes
     
            touch streams.js
            
+    38. How requiring modules really works    
+    
+    39. requiring modules in practice
             
             
 
