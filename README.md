@@ -96,7 +96,11 @@ section 4: How Node.js Works: A Look Behind the Scenes
     
             Streams: Used to process (read and write) data piece by piece (chunks), without completing the whole read or write operation, and therefore without keeping all the data in memory
             
+    37. Streams in Practice
     
+           touch streams.js
+           
+            
             
 
 
