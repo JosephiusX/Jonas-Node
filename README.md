@@ -51,7 +51,7 @@ section 3. Introduction to Back-End Web Development
 
 section 4: How Node.js Works: A Look Behind the Scenes
 
-        30. Node, V8, Libuv and C++
+30. Node, V8, Libuv and C++
 
             node is made up of V8 & libuv
                 v8 is written with js & C++
@@ -59,7 +59,7 @@ section 4: How Node.js Works: A Look Behind the Scenes
 
             node also relies on http-parser, c-ares, openSsl, zlib
 
-        31. Processes, Threads and the Thread Pool
+    31. Processes, Threads and the Thread Pool
 
             Single Thread (Sequence of instructions)
 
@@ -70,7 +70,7 @@ section 4: How Node.js Works: A Look Behind the Scenes
 
                the event loop can ofload to thread pool
 
-        32. The Node.js Event Loop
+    32. The Node.js Event Loop
 
             guidlines for not blocking the event loop
 
@@ -82,17 +82,22 @@ section 4: How Node.js Works: A Look Behind the Scenes
 
                 Dont use too complex regular expressions(e.g nested quantifiers)
 
-        33. The Event Loop in Practice
+    33. The Event Loop in Practice
              
              event-loop.js
 
-        34. Events and Event-Driven Architecture
+    34. Events and Event-Driven Architecture
 
-        35. Events in Practice
+    35. Events in Practice
 
             create new file events.js
             
-        36. Introduction to Streams
+    36. Introduction to Streams
+    
+            Streams: Used to process (read and write) data piece by piece (chunks), without completing the whole read or write operation, and therefore without keeping all the data in memory
+            
+    
+            
 
 
 
