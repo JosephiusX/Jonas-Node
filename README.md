@@ -109,8 +109,12 @@ sec5 Asunchronous Javascript: Promises and Async/Await
 41. The problem whit Callbacks: Calllback Hell
         
         index.js
-
         
+42. From callback hell to promises
+
+        index.js
+        
+43. Building Promises
             
             
 
