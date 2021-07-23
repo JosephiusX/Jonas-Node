@@ -117,6 +117,8 @@ sec5 Asunchronous Javascript: Promises and Async/Await
 43. Building Promises
 
 44. Consuming Promises with Async/Await
+
+45. Returning Values from Async functions
             
             
 
